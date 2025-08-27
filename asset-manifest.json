@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-contacts-keeper/static/css/main.d3b013dc.css",
+    "main.js": "/my-contacts-keeper/static/js/main.9dbd9a8c.js",
+    "static/js/453.3d9d2cf5.chunk.js": "/my-contacts-keeper/static/js/453.3d9d2cf5.chunk.js",
+    "index.html": "/my-contacts-keeper/index.html",
+    "main.d3b013dc.css.map": "/my-contacts-keeper/static/css/main.d3b013dc.css.map",
+    "main.9dbd9a8c.js.map": "/my-contacts-keeper/static/js/main.9dbd9a8c.js.map",
+    "453.3d9d2cf5.chunk.js.map": "/my-contacts-keeper/static/js/453.3d9d2cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3b013dc.css",
+    "static/js/main.9dbd9a8c.js"
+  ]
+}
