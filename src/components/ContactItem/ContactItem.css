@@ -1,0 +1,66 @@
+.contact-card {
+  background: white;
+  border-radius: 14px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+  border-color: #d6bcfa;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-name {
+  font-weight: 600;
+  font-size: 18px;
+  color: #2d3748;
+  margin-bottom: 5px;
+}
+
+.contact-phone {
+  color: #718096;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn-delete {
+  background: linear-gradient(120deg, #e53e3e 0%, #c53030 100%);
+  color: white;
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(229, 62, 62, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-delete:hover {
+  background: linear-gradient(120deg, #c53030 0%, #9b2c2c 100%);
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(229, 62, 62, 0.3);
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+  
+  .contact-actions {
+    align-self: flex-end;
+  }
+}
